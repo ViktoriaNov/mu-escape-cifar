@@ -1,7 +1,7 @@
-# MU Escape — eksperymenty (praca magisterska)
+# MU Escape — eksperymenty 
 
 Kod źródłowy do reprodukcji wyników opisanych w pracy magisterskiej  
-*Wykorzystanie metod oduczenia maszynowego w celu uniknięcia „ostrych” minimów lokalnych w trakcie uczenia sieci neuronowych* (WIT PWr, 2026).
+*Wykorzystanie metod oduczenia maszynowego w celu uniknięcia „ostrych” minimów lokalnych w trakcie uczenia sieci neuronowych*
 
 Autorka: **Viktoria Novorodskaia**
 
@@ -80,10 +80,6 @@ Hiperparametry: `thesis_code/config.py` (zgodne z tabelą parametrów w pracy).
 ## Notatnik
 
 `notebook/thesis_sharp_minima_local.ipynb` — interfejs do uruchamiania pojedynczych scenariuszy i podglądu wyników. Wymaga ustawienia `PROJECT_ROOT` na katalog repozytorium.
-
-## Cytowanie
-
-Jeśli korzystasz z tego kodu w publikacji, podaj pracę dyplomową autorki (WIT PWr, 2026) oraz link do repozytorium.
 
 ## Licencja
 

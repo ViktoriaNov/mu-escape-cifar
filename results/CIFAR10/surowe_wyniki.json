@@ -1,0 +1,102 @@
+{
+  "Early Stopping": [
+    {
+      "seed": 42,
+      "test_acc": 0.7956,
+      "sharpness_mean": 0.030277013187408497,
+      "sharpness_std": 0.0
+    },
+    {
+      "seed": 123,
+      "test_acc": 0.8389,
+      "sharpness_mean": 0.03514197474956504,
+      "sharpness_std": 0.0
+    },
+    {
+      "seed": 777,
+      "test_acc": 0.8074,
+      "sharpness_mean": 0.03589054054498675,
+      "sharpness_std": 0.0
+    }
+  ],
+  "SGDR": [
+    {
+      "seed": 42,
+      "test_acc": 0.8406,
+      "sharpness_mean": 0.06650726908683774,
+      "sharpness_std": 0.0
+    },
+    {
+      "seed": 123,
+      "test_acc": 0.8716,
+      "sharpness_mean": 0.056789050734043056,
+      "sharpness_std": 0.0
+    },
+    {
+      "seed": 777,
+      "test_acc": 0.8483,
+      "sharpness_mean": 0.03161858513355259,
+      "sharpness_std": 0.0
+    }
+  ],
+  "SWA": [
+    {
+      "seed": 42,
+      "test_acc": 0.9414,
+      "sharpness_mean": 0.06708805308818816,
+      "sharpness_std": 0.0
+    },
+    {
+      "seed": 123,
+      "test_acc": 0.9413,
+      "sharpness_mean": 0.05903751662015913,
+      "sharpness_std": 0.0
+    },
+    {
+      "seed": 777,
+      "test_acc": 0.9418,
+      "sharpness_mean": 0.07960169516086577,
+      "sharpness_std": 0.0
+    }
+  ],
+  "Noise Injection": [
+    {
+      "seed": 42,
+      "test_acc": 0.9111,
+      "sharpness_mean": 0.21998463216781627,
+      "sharpness_std": 0.0
+    },
+    {
+      "seed": 123,
+      "test_acc": 0.9274,
+      "sharpness_mean": 0.08417556035161017,
+      "sharpness_std": 0.0
+    },
+    {
+      "seed": 777,
+      "test_acc": 0.9264,
+      "sharpness_mean": 0.1118129280042649,
+      "sharpness_std": 0.0
+    }
+  ],
+  "MU Escape": [
+    {
+      "seed": 42,
+      "test_acc": 0.9098,
+      "sharpness_mean": 0.174284503622055,
+      "sharpness_std": 0.0
+    },
+    {
+      "seed": 123,
+      "test_acc": 0.9258,
+      "sharpness_mean": 0.10542112758159639,
+      "sharpness_std": 0.0
+    },
+    {
+      "seed": 777,
+      "test_acc": 0.9248,
+      "sharpness_mean": 0.11045994271278375,
+      "sharpness_std": 0.0
+    }
+  ]
+}

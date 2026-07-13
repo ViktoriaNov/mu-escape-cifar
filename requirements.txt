@@ -1,0 +1,11 @@
+# Zależności do eksperymentów (praca magisterska MU Escape)
+# Instalacja: pip install -r requirements.txt
+
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# Opcjonalnie (Colab ma torch preinstalowany):
+# tabulate>=0.9.0

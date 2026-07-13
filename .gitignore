@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Dane i artefakty obliczeń (generowane lokalnie)
+data/
+checkpoints/
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Wykresy można odtworzyć z checkpointów (opcjonalnie commituj PNG)
+# results/**/*.png

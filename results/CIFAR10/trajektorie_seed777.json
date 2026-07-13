@@ -1,0 +1,53 @@
+{
+  "seed": 777,
+  "dataset": "CIFAR10",
+  "methods": {
+    "Early Stopping": {
+      "epochs": 20,
+      "peak_val_acc": 0.8116,
+      "peak_val_epoch": 17,
+      "final_val_acc": 0.7678,
+      "final_train_loss": 0.39452080120510524,
+      "test_acc": 0.8074,
+      "sharpness": 0.03589054054498675
+    },
+    "SGDR": {
+      "epochs": 80,
+      "peak_val_acc": 0.9438,
+      "peak_val_epoch": 66,
+      "final_val_acc": 0.8482,
+      "final_train_loss": 0.3253294537332323,
+      "test_acc": 0.8483,
+      "sharpness": 0.03161858513355259
+    },
+    "SWA": {
+      "epochs": 80,
+      "peak_val_acc": 0.9412,
+      "peak_val_epoch": 55,
+      "final_val_acc": 0.8814,
+      "final_train_loss": 0.16846329079733954,
+      "test_acc": 0.9418,
+      "sharpness": 0.07960169516086577
+    },
+    "Noise Injection": {
+      "epochs": 30,
+      "peak_val_acc": 0.9274,
+      "peak_val_epoch": 30,
+      "final_val_acc": 0.9274,
+      "final_train_loss": 0.016514619458549554,
+      "test_acc": 0.9264,
+      "sharpness": 0.1118129280042649
+    },
+    "MU Escape": {
+      "epochs": 30,
+      "peak_val_acc": 0.9284,
+      "peak_val_epoch": 28,
+      "final_val_acc": 0.9224,
+      "final_train_loss": 0.014648132977220747,
+      "test_acc": 0.9248,
+      "sharpness": 0.11045994271278375,
+      "sharp_before": 0.03592780900478365,
+      "sharp_after_ul": 0.0412263029360771
+    }
+  }
+}
